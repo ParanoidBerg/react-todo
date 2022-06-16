@@ -1,0 +1,70 @@
+.app{
+    margin: auto;
+    width: 450px;
+}
+.header {
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+.form{
+    display: flex;
+    
+
+}
+.textForm {
+    flex: 1;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+.addBtn {
+    background-color: #634bf5;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+.tasksContainer{}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #E5E5E5;
+    align-items: center;
+}
+.task__selected {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #E5E5E5;
+    align-items: center;
+    background-color: #FFF6D6; 
+}
+.taskText{
+    flex: 1;
+}
+.favs{
+    padding: 0 15px;
+}
+.favs button{
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.actions button {
+    color: red;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.actions{
+    padding: 15px;
+}
+.selected .favs span{
+    color: #FFd231;
+}
